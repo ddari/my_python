@@ -6,8 +6,7 @@ if r==len(s): d=s.pop(r-1)
 else: d=s.pop(r)
 print('Само слово с эти индексом:',d) 
 
-'''bukva =random.randint(0,len(d))'''
-bukva=0
+bukva =random.randint(0,len(d))
 print('Индекс буквы',bukva)
 if bukva==0: m=bukva+1
 else: m=bukva;
